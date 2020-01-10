@@ -1,0 +1,160 @@
+html, body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+
+}
+
+#nav{
+    background-color: #ffffff;
+    font-family: 'Nunito Sans', sans-serif;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 0px 16px ;
+    z-index: 2;
+    
+}
+
+#nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    display: block;
+    padding: 2px;
+    padding-left: 16px;
+    transition: 0.3s;
+    
+}
+
+#nav a:hover{
+    background-color: yellow;
+    
+}
+
+#nav p{
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 16px;
+    
+    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+#content{
+    flex: 1 0 auto;
+    padding: 0px;
+    margin: 0px;
+    
+   
+    margin-left: 200px;
+
+    background-color: white;
+    z-index: 0;
+}
+
+
+
+#footer{
+    flex-shrink: 0;
+    height: 20px;
+    background-color: black;
+    color: white;
+    z-index: 1;
+    text-align: right;
+    
+}
+
+#content p{
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 40px;
+    margin: 0px;
+    top: 102px;
+    padding: 32px;
+    
+    border-top: solid 4px;
+    border-bottom: solid 4px;
+    
+    line-height: 1;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 1; 
+}
+
+#content h2{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 16px;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+    padding: 32px;
+    
+}
+
+ul{
+    margin-left: 22%;
+    margin-right: 20%;
+    text-align: left;
+    
+    font-size: 20px; font-family: 'Share Tech Mono', monospace; 
+}
+
+.gridContainer{
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 2%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.gridItem{
+    
+    margin: 0px;
+    max-height: 300px;
+    width: auto; 
+}
+
+.gridItem:hover{
+    opacity: .6;
+}
+
+.contentTitle h1{
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 30px;
+    font-weight: 100;
+    margin: 0px;
+    padding: 36px;
+    border-bottom: solid 4px;
+    line-height: 1;
+    text-align: center;
+    z-index: 1;
+}
+
+#logos{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logos img{
+    margin: 32px;
+    max-height: 150px;
+}
+
+#logos img:hover{
+    opacity: .6;
+}
